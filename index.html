@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style link css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/motorcycles.css">
+    <!-- bootstrap logos -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- animation link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>git clone
+
+    <!-- navbar 1  -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid  nav-bar-body ">
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="bi bi-list-nested"></i></span>
+            </button>
+            <a class="navbar-brand  m-auto " href="#"><img class="bg-dark " src="/midia/logo.svg" alt=""></a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" onclick="show1(1)"
+                            href="#">Motorcycles</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#"
+                            onclick="show1(2)">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#"
+                            onclick="show1(3)">Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#" onclick="show1(4)">Owners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="# "
+                            onclick="show1(5)">Discover</a>
+                    </li>
+
+                    <div class="endelements d-flex  ">
+                        <li class="nav-item elementend">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Motorcycles</a>
+                        </li>
+                        <li class="nav-item elementend">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item elementend">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Clothing</a>
+                        </li>
+                        <li class="nav-item elementend">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Owners</a>
+                        </li>
+
+                        <li class="nav-item dropdown elementend  ">
+                            <div class="logo-droutdown"><i class="bi bi-geo-alt-fill"></i></div>
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </div>
+
+                </ul>
+
+            </div>
+
+        </div>
+        </div>
+    </nav>
+    <script>
+        let status = true
+        const show1 = (id) => {
+
+            const one = document.getElementById('motor');
+            const two = document.getElementById('motor2');
+            const three = document.getElementById('motor3');
+            const four = document.getElementById('motor4');
+            const five = document.getElementById('motor5');
+
+
+
+            if (id === 1) {
+                if (status) {
+
+                    one.style.display = 'block'
+                    status = false
+                }
+                else {
+                    one.style.display = 'none'
+                    status = true
+
+                }
+            }
+            else if (id === 2) {
+                if (status) {
+
+                    two.style.display = 'block'
+                    status = false
+                }
+                else {
+                    two.style.display = 'none'
+                    status = true
+
+                }
+            }
+
+            else if (id === 3) {
+                if (status) {
+
+                    three.style.display = 'block'
+                    status = false
+                }
+                else {
+                    three.style.display = 'none'
+                    status = true
+
+                }
+            }
+            else if (id === 4) {
+                if (status) {
+
+                    four.style.display = 'block'
+                    status = false
+                }
+                else {
+                    four.style.display = 'none'
+                    status = true
+
+                }
+            }
+            else if (id === 5) {
+                if (status) {
+
+                    five.style.display = 'block'
+                    status = false
+                }
+                else {
+                    five.style.display = 'none'
+                    status = true
+
+                }
+            }
+
+
+
+        }
+
+
+
+    </script>
+
+    <!-- 1 ******************************  motorcycle-->
+
+    <div class="contener border border-5 motorcycle " id="motor">
+
+        <div class="conyener-fluid">
+            <div class="row">
+                <div class="col-2    ">
+                    <div class="box1 ms-4 ">
+                        <dl>
+
+                            <p><a class="link-dark link-underline-light " href="">
+                                    <dt>
+                                        <h4>Adventure</h4>
+                                    </dt>
+                                </a></p>
+
+                            <p><a class="link-dark link-underline-light" href="">
+                                    <dt>
+                                        <h4>Modern Classics</h4>
+                                    </dt>
+                                </a></p>
+                            <p><a class="link-dark link-underline-light" href="">
+                                    <dt>
+                                        <h4>Roadsters</h4>
+                                    </dt>
+                                </a></p>
+                            <p><a class="link-dark link-underline-light" href="">
+                                    <dt>
+                                        <h4>Rocket 3</h4>
+                                    </dt>
+                                </a></p>
+                            <p><a class="link-dark link-underline-light" href="">
+                                    <dt>
+                                        <h4>Sport</h4>
+                                    </dt>
+                                </a></p>
+                            <p><a class="link-dark link-underline-light" href="">
+                                    <dt>
+                                        <h4>Special Editions</h4>
+                                    </dt>
+                                </a></p>
+
+
+
+
+
+                        </dl>
+                    </div>
+                    <div class="box2 ms-3">
+                        <dl>
+
+                            <p><a class="link-dark link-underline-light fw-normal" href="">
+                                    <dt>Enquire Now
+                                    </dt>
+                                </a></p>
+                            <p><a class="link-dark link-underline-light fw-normal " href="">
+                                    <dt> Finance Offers</dt>
+                                </a></p>
+                    </div>
+                    <div class="box3 ms-3 d-flex bg-light">
+                        <dl>
+
+                            <dt></dt> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z" />
+                                </svg></span> <a class="link-dark link-underline-light fw-normal " href="">
+                                Model Overview</dt>
+                            </a>
+                            <dt></dt> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-toggles2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2s-.195-1.412-.535-2" />
+                                    <path
+                                        d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8m.535-10a4 4 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126q.138-.534.41-1H4a2 2 0 1 0 0 4z" />
+                                    <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0" />
+                                </svg></span><a class="link-dark link-underline-light fw-normal " href="">
+                                Customize</dt>
+                            </a>
+                            <dt></dt> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                                </svg></span> <a class="link-dark link-underline-light fw-normal " href="">
+                                Book Now</dt>
+                            </a>
+
+                            <dt></dt> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z" />
+                                    <path fill-rule="evenodd"
+                                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                                </svg></span> <a class="link-dark link-underline-light fw-normal " href="">
+                                Dealers</dt>
+                            </a>
+
+
+
+                        </dl>
+                    </div>
+
+                </div>
+                <div class="col-3  py-3 text-dark">
+                    <div class="conyener-fluid">
+                        <div class="d-flex border py-3">
+                            <div class="col-6 ps-5">
+                                <h5>Adventure</h5>
+                            </div>
+                            <div class="col-6 text-end ">
+                                <h5>Explore <span>></span></h5>
+                            </div>
+                        </div>
+                        <div class="d-flex border">
+                            <div class="col-4 ">
+                                <div class="imgbike "><img class="img-fluid"
+                                        src="/midia/tiger/Tiger 1200 GT Pro_MY24_Carnival Red_RHS.png" alt=""></div>
+                            </div>
+                            <div class="col-8  p-2  ">
+                                <h5 class="fs-5 text">TIGER 1200 RANGE</h5>
+                                <p class="fw-light">Price From ₹ 19,38,990.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex border">
+                            <div class="col-4 ">
+                                <div class="imgbike"><img class="img-fluid"
+                                        src="/midia/tiger/Tiger 900 GT_MY24_Graphite_RHS_431px.png" alt=""></div>
+                            </div>
+                            <div class="col-8 p-2  ">
+                                <h5 class="fs-5 text">TIGER 900 RANGE
+                                </h5>
+                                <p class="fw-light">Price From ₹ 13,95,000.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex border">
+                            <div class="col-4">
+                                <div class="imgbike"><img class="img-fluid"
+                                        src="/midia/tiger/tiger-sport-660-korosi-red-graphite-RHS-431.png" alt=""></div>
+                            </div>
+                            <div class="col-8 p-2 ">
+                                <h5 class="fs-5 text">TIGER SPORT 660</h5>
+                                <p class="fw-light">Price From ₹ 9,45,000.00</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="col-7  py-3 text-dark">
+                    <div class="col-12 py-4">
+                        <h1>TIGER 1200 RANGE</h1>
+                    </div>
+                    <div class="col-12 ps-4">
+                        <p>Price From</p>
+                        <p>
+                            ₹ 19,38,990.00</p>
+                    </div>
+                    <div class="col-12 d-flex   "><img class="col-7 img-fluid"
+                            src="/midia/tiger/Tiger 1200 GT Pro_MY24_Carnival Red_RHS.png" alt="">
+                        <div class="col-5 d-block">
+
+
+
+
+
+                            <p><span class=" fw-bolder"> 1160</span> CC ENGINE</p>
+                            <p><span class=" fw-bolder">150 </span> PS PEAK POWER</p>
+                            <p><span class=" fw-bolder">130 </span> NM PEAK TORQUE</p>
+                            <p><span class=" fw-bolder">3</span> YEAR WARRANTY</p>
+                            <button type="button" class="btn btn-danger btn-lg d-block my-2">Customize
+                            </button>
+                            <button type="button" class="btn btn-dark btn-lg d-block my-2">View Details
+                            </button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 2************************ -->
+    <div class="contener motorcycle" id="motor2">
+        <div class="row pt-5">
+
+
+            <div class="col-3 ps-5  ">
+                <p class="fs-4 text">Accessories</p>
+                <hr>
+                <div class=" listdara ">
+                    <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Configurator</a> </p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">Triumph Genuine Luggage</a></p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">Triumph Connectivity</a></p>
+
+                    <p><a class=" fs-6 text link-dark link-underline-light" href="">Triumph Sena Bluetooth® <i></i></a>
+                    </p>
+
+                </div>
+
+                <p class=" fs-5 text link-underline-light fw-bolder">Customize Your Ride <span>></span></p>
+            </div>
+
+
+            <div class="col-3 ps-5 ">
+                <p class="fs-4 text">Latest Models</p>
+                <hr>
+                <div class=" listdara ">
+                    <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Trident Triple Tribute</a> </p>
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">
+                            Rocket 3 Storm</a></p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">Daytona 660</a></p>
+
+                    <p><a class=" fs-6 text link-dark link-underline-light" href="">Tiger 900 <i></i></a>
+                    </p>
+                    <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Scrambler 400 X</a> </p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">
+                            Speed 400</a></p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">Street Triple 765</a></p>
+
+                    <p><a class=" fs-6 text link-dark link-underline-light" href="">Trident 660 <i></i></a>
+                    </p>
+
+
+                </div>
+
+                <p class=" fs-5 text link-underline-light fw-bolder">Trident 660 <span>></span></p>
+            </div>
+
+            <div class="col-3 ps-5 ">
+                <p class="fs-4 text">Quick Links</p>
+                <hr>
+                <div class=" listdara ">
+                    <p><a class=" fs-6 text link-dark  link-underline-light" href=""> My Triumph App</a> </p>
+
+                    <p><a class="fs-6 text link-dark link-underline-light" href="">Muc-Off</a></p>
+
+
+
+                </div>
+
+                <p class=" fs-5 text link-underline-light fw-bolder">Find A Dealer <span>></span></p>
+            </div>
+            <div class="col-3">
+
+                <div class="listdata"><img class="my-1" src="/midia/tiger/Tiger-1200_Rally-Explorer-nav-357x560.jpg"
+                        alt="">
+
+                </div>
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 3************************************ -->
+    <div class="col-12 motorcycle" id="motor3">
+        <div class="row " id="row">
+
+        </div>
+    </div>
+    <script>
+
+        let card_container = document.getElementById("row");
+
+        const arrObj = [
+            {
+                card: 1,
+                imgpath: "/midia/cloth/10006.png",
+                title: "Riding Essentials",
+                para: "We know the importance of having the right kit for the elements. These packable riding essentials are always within easy reach.",
+
+            },
+            {
+                card: 2,
+                imgpath: "/midia/cloth/10007.png",
+                title: "Casual Gear",
+                para: "Make a premium style statement with our heritage-inspired capsule collections."
+            },
+            {
+                card: 3,
+                imgpath: "/midia/cloth/10008.png",
+                title: "Motorcycle Gear",
+                para: "Performance wear to complement every bike we build; developed alongside each model."
+            },
+            {
+                card: 4,
+                imgpath: "/midia/cloth/10009.png",
+                title: "Lifestyle Collection",
+                para: "Discover authentic, moto-influenced style. Our lifestyle collection is inspired by the ride and built to be lived in."
+            },
+            {
+                card: 5,
+                imgpath: "/midia/cloth/10010.jpg",
+                title: "Clothing Catalogue",
+                para: "Discover our stylish clothing collection for 2024. Designed by riders, for riders."
+            },
+            {
+                card: 6,
+                imgpath: "/midia/cloth/10011.png",
+                title: "Boots & Gloves Catalogue",
+                para: "Discover our collection of Boots and Gloves for riding all year round"
+            }
+        ]
+
+
+
+
+
+        arrObj.map((val) => {
+            return (
+
+                card_container.innerHTML += `<div class="col-md-3   ">
+                
+                <div class="card my-1  card1  " style="width: 21rem;">
+                    <img src=${val.imgpath} class="card-img-top p-1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-6  ">${val.title}</h5>
+                        <p class="card-text fs-7">${val.para}</p>
+                        
+                        </div>
+                        </div>
+                        </div> `
+            )
+        })
+
+
+
+
+
+
+    </script>
+
+
+    <!-- 4************************************ -->
+    <div class="motorcycle" id="motor4">
+        <div class="contener">
+            <div class="row pt-5">
+
+
+                <div class="col-2 ps-5  ">
+                    <p class="fs-4 text">Total Care</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Extended Warranty</a> </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Service Package</a></p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Roadside Assistance</a></p>
+
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Bike Health Check <i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Customer Promise <i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Genuine Parts<i></i></a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-2 ps-5 ">
+                    <p class="fs-4 text">Your Triumph</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href="">Warranty and Assistance</a>
+                        </p>
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">
+                                My Triumph App</a></p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">what3words</a></p>
+
+
+                    </div>
+
+                    <p class=" fs-5 text link-underline-light fw-bolder">Find out more<span>></span></p>
+                </div>
+
+                <div class="col-3 ps-5 ">
+                    <p class="fs-4 text">Quick Links</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href="">Recalls</a> </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Contact Us</a></p>
+
+
+
+                    </div>
+
+                    <p class=" fs-5 text link-underline-light fw-bolder ">Find A Dealer <span>></span></p>
+                </div>
+                <div class="col-5 d-flex  mt-5 ">
+                    <div class="col-5 ">
+                        <img class="h-100" src="/midia/tiger/Total_Care_Owners_Web_2_Nav.jpg" alt="">
+
+                    </div>
+                    <div class="col-7 ">
+                        <img class="h-100" src="/midia/tiger/Total_Care_Owners_Web_3_Nav.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <br><br>
+            <hr>
+
+            <div class="contener">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="col-3 ms-auto text-center"><i class="bi bi-check-square fs-3"></i>
+                            <h4 class="fs-5">Extended Warranty</h4>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-2  text-center"><i class="bi bi-geo-alt fs-3"></i>
+                            <h4 class="fs-5">Find A Dealer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5************************************ -->
+    <div class="motorcycle" id="motor5">
+        <div class="contener">
+            <div class="row pt-5">
+
+
+                <div class="col-2 ps-5  ">
+                    <p class="fs-4 text"> News</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Latest News</a> </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Motorcycles</a></p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Motorcycles</a></p>
+
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Brand <i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Racing <i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Epic Adventures<i></i></a>
+                        </p>
+
+                    </div>
+                    <p class=" fs-5 text link-underline-light fw-bolder">Overview<span>></span></p>
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="col-2 ps-5  ">
+                    <p class="fs-4 text"> Racing</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Enduro</a> </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">MXGP</a></p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">US Racing</a></p>
+
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">
+                                Moto2™<i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">Moto2™ <i></i></a>
+                        </p>
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">PTR Triumph<i></i></a>
+                        </p>
+
+                    </div>
+                    <p class=" fs-5 text link-underline-light fw-bolder">Overview<span>></span></p>
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-2 ps-5 ">
+                    <p class="fs-4 text">Brands</p>
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href=""> James Bond Partnership</a>
+                        </p>
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">
+                                Triumph & Gibson</a></p>
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href=""> Distinguished Gentleman's
+                                Ride</a> </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href=""> Triumph and Breitling</a></p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">120 Years Celebration</a></p>
+
+                        <p><a class=" fs-6 text link-dark link-underline-light" href="">
+                                Timeline<i></i></a>
+
+
+
+
+                    </div>
+
+                    <p class=" fs-5 text link-underline-light fw-bolder">Overview<span>></span></p>
+                </div>
+
+                <div class="col-2 ps-5 ">
+                    <p class="fs-4 text">Experiences</p>
+
+
+
+
+                    <hr>
+                    <div class=" listdara ">
+                        <p><a class=" fs-6 text link-dark  link-underline-light" href="">Factory Visitor Experience</a>
+                        </p>
+
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Adventure Riding Experience
+                            </a></p>
+                        <p><a class="fs-6 text link-dark link-underline-light" href="">Epic Ride
+                            </a></p>
+
+
+
+                    </div>
+
+                    <p class=" fs-5 text link-underline-light fw-bolder ">Overview <span>></span></p>
+                </div>
+                <div class="col-4 d-flex  mt-5 ">
+                    <div class="col-5 ">
+                        <img class="h-75" src="/midia/tiger/new-navigation-images-2023-for-the-ride-reviews-230x460.jpg"
+                            alt="">
+
+
+                    </div>
+                    <div class="col-7 ">
+                        <img class="h-75" src="/midia/tiger/ftr-nav-breitling-225x400.png" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <br><br>
+            <hr>
+
+            <div class="contener">
+                <div class="row ">
+                    <div class="col-4">
+                        <div class=" col-6 ms-auto  text-center"><i class="bi bi-check-square fs-3"></i>
+                            <h4 class="fs-5">Extended Warranty</h4>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" text-center"><i class="bi bi-geo-alt fs-3"></i>
+                            <h4 class="fs-5">Find A Dealer</h4>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" col-6 me-auto text-center"><i class="bi bi-geo-alt fs-3"></i>
+                            <h4 class="fs-5">Find A Dealer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 6************************************ -->
+
+
+    <!-- navbar2 -->
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid  nav-bar2-body  ">
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span>
+                    <h3> SPEED 400</h3>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent1">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="libox">
+                        <li class="nav-item2 logo-speed400">
+
+                            <h3> SPEED 400</h3>
+
+                        </li>
+                    </div>
+
+                    <div class="libox">
+                        <li class="nav-item1">
+                            <a class="nav-link active text-dark" aria-current="page" href="#"> OVERVIEW</a>
+                        </li>
+                    </div>
+                    <div class="libox">
+                        <li class="nav-item1">
+                            <a class="nav-link active text-dark" aria-current="page" href="#"> MODEL</a>
+                        </li>
+                    </div>
+                    <div class="libox">
+                        <li class="nav-item1">
+                            <a class="nav-link active text-dark" aria-current="page" href="#"> SPECIFICATION</a>
+                        </li>
+                    </div>
+                    <div class="libox">
+                        <li class="nav-item1">
+                            <a class="nav-link active text-dark" aria-current="page" href="#"> REASONS TO RIDE</a>
+                        </li>
+                    </div>
+                    <div class="libox">
+                        <li class="nav-item1">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">git</a>
+                        </li>
+                    </div>
+
+
+                    <div class="endbox ">
+                        <a href="">
+                            <li class="btn btn--style-h ">
+
+                                ENQUIRE NOW
+                                <i class="bi bi-arrow-right-short"></i>
+                        </a>
+                        </li>
+
+                        <li><button type="button" class="btn btn-primary">Primary button</button></li>
+                    </div>
+
+
+
+                </ul>
+            </div>
+
+
+        </div>
+        </div>
+    </nav>
+
+    <div class="blankbox">
+        .
+    </div>
+
+
+
+    <!-- part1  -->
+
+    <div class="container-fluid">
+        <div class="img1body">
+            <div class="img1">
+                <div class="bbba">
+                    <img src=" /midia/speed-400-my24-family-hero-1-1920x1080.jpg" alt="">
+                    <div class=" content">
+                        <h2>speed 400</h2>
+                        <div class="line"></div>
+                        <h1 id="showLetter"></h1>
+
+
+                        <script>
+                            const arr = ["Have" , "It" , "ALL"];
+                            const h1 = document.getElementById("showLetter")
+                            
+                            let count = 0;
+                            const changeWord = ()=>{
+                                if(count === 0){
+                                    h1.innerHTML = arr[0];
+                                    count ++;
+                                }
+                                else if(count === 1){
+                                    h1.innerHTML = arr[1];
+                                    count ++;
+                                }
+                                else{
+                                    h1.innerHTML = arr[2];
+                                    count = 0;
+                                }
+                            }
+
+
+                            setInterval(changeWord , 2000);
+                        </script>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 
+    part2 perforamance info -->
+
+
+    <div class="container-fluid">
+        <div class="contenerbox   ">
+            <div class="content col-sm-12">
+                <h3>SPIRITED PERFORMANCE</h3>
+                <p>THE MY25 SPEED 400 - iconic Triumph style, characterful performance and class-leading quality</p>
+
+                <img src=" /midia/speed-400-my24-family-multi-content-1-630x788.jpg" alt="">
+            </div>
+            <div class="contentinfo col-sm-12 ">
+                <h1>
+                    Beautiful, responsive, agile and built to the highest standards, the Speed 400 sets a new class
+                    benchmark.
+                </h1>
+            </div>
+
+
+        </div>
+        <div class="bigimgspeed">
+            <img src=" /midia/speed-400-my24-family-multi-content-2-1920x1080.jpg" alt="">
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- part 3 details and img -->
+
+    <div class="col-12 p-4">
+        <div class="bodybox col-12  ">
+
+            <div class="row">
+                <div class=" col-md-4 ">
+
+
+
+                    <h3> THE NEW MY25 SPEED 400</h3>
+                    <p>Born into a peerless bloodline, the SPEED 400 has Triumph’s unique Modern Classic roadster design
+                        in
+                        its DNA.
+                    </p>
+                    <p>Price From ₹ 2,40,000.00</p>
+                    <div class="buttonbox"> <button id="bt1">Full Details </button>
+                        <button id="bt2">Check Loan Eligibility</button>
+                    </div>
+
+
+
+
+                </div>
+                <div class=" col-md-8  ">
+                    <img src=" /midia/triumph_my25_792x446_red02.avif" alt="" class="d-block w-100">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--  [art3 -2]-->
+
+
+    <div class="container-fluid">
+        <div class="bodybox1 col-12  p-4">
+            <div class="row">
+                <div class="boxdetails1  col-md-4 ">
+
+
+
+
+
+                    <h3> NEW SPEED 400</h3>
+                    <p> Born into a peerless bloodline, the Speed 400 has Triumph’s unique Modern Classic roadster
+                        design in
+                        its DNA.
+
+                    </p>
+                    <p> Ex-Showroom ₹ 2,34,497.00</p>
+                    <div class="buttonbox2"> <button id="bt1">Full Details </button>
+                        <button id="bt2">Check Loan Eligibility</button>
+                    </div>
+
+
+
+
+                </div>
+                <div class="boximages1  col-md-8  "><img class="d-block w-100"
+                        src=" /midia/speed 400_my24_carnival red_rhs_537.avif" alt=""></div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- part 4 -->
+
+
+    <div class="container-fluid">
+        <div class="upperbox"></div>
+
+        <div class="box-corosal">
+            <div id="carouselExampleCaptions" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active bagound1">
+                        <div class="imgbox"> <img src=" /midia/speed-400-my24-family-timeline-1-revised-1920x780.jpg"
+                                class="d-block w-100" alt="..."></div>
+
+                        <div class="carousel-caption   col-md-3 info-box  ">
+                            <h5>STYLE</h5>
+                            <p>With a timeless Triumph roadster silhouette, stripped-back custom style and premium
+                                finish, the Speed 400 sets a new class standard.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption i col-md-3  info-box ">
+                            <h5>HANDLING</h5>
+                            <p>Light, agile and dynamic, the Speed 400 redefines rider confidence, bringing fun to every
+                                ride.</p>
+                        </div>
+                        <div class="imgbox"> <img src=" /midia/speed-400-my24-family-timeline-2-1920x780.jpg"
+                                class="d-block w-100" alt="..."></div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="imgbox"> <img src=" /midia/speed-400-my24-family-timeline-3-1920x780.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption  col-md-3 info-box  ">
+                            <h5>CHARACTER</h5>
+                            <p>
+                                Authentic Triumph style, handling, performance and sound. The Speed 400 is the real
+                                deal.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="imgbox"> <img src=" /midia/speed-400-my24-family-timeline-4-1920x780.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption  col-md-3  info-box   ">
+                            <h5>QUALITY</h5>
+                            <p>
+                                Engineered to the highest standards, the Speed 400 blends premium specification with a
+                                high-quality finish.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="imgbox"> <img src=" /midia/speed-400-my24-family-timeline-5-1920x780.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption    
+                         col-md-3  info-box   ">
+                            <h5>VALUE</h5>
+                            <p>
+                                High specification, long service intervals and low running costs — the Speed 400
+                                represents unbeatable value.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- 
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+
+            </div> -->
+
+        </div>
+        <div class="upperbox"></div>
+    </div>
+
+
+    <br><br><br>
+    <hr>
+
+    <!-- box numbers -->
+
+
+
+    <div class="container-fluid">
+        <div class="box-numbers">
+
+            <div class="numbers-head">
+                <h3>SPEED 400 IN NUMBERS</h3>
+            </div>
+            <div class="col-12 p-3">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6  my-2 ">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <p class="fs-1 fw-bold"> 398 </p>
+                            </div>
+
+                            <div class="col-md-10 ps-md-5">
+                                <p class="fw-bold fs-5 "><sup>CC ENGINE</sup></p>
+                            </div>
+                        </div>
+                        <div class="col-2  bg-danger p-1"></div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6  my-2 ">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <p class="fs-1 fw-bold"> 398 </p>
+                            </div>
+
+                            <div class="col-md-10 ps-md-5">
+                                <p class="fw-bold fs-5"><sup>CC ENGINE</sup></p>
+                            </div>
+                        </div>
+                        <div class="col-2  bg-danger p-1"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  my-2 ">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <p class="fs-1 fw-bold"> 398 </p>
+                            </div>
+
+                            <div class="col-md-10 ps-md-5">
+                                <p class="fw-bold fs-5"><sup>CC ENGINE</sup></p>
+                            </div>
+                        </div>
+                        <div class="col-2  bg-danger p-1"></div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6  my-2 ">
+                        <div class="row  ">
+
+                            <div class="col-md-2 ">
+                                <p class="fs-1 fw-bold"> 398 </p>
+                            </div>
+
+                            <div class="col-md-10 ps-md-5">
+                                <p class="fw-bold fs-5"><sup>CC ENGINE</sup></p>
+                            </div>
+                        </div>
+                        <div class="col-2  bg-danger p-1"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- part iconic  -->
+
+    <div class="col-12">
+
+        <div class=" row   ">
+
+
+            <div class="col-lg-6 p-5">
+                <img src=" /midia/speed-400-my24-family-promo-iconic-955x537.jpg" alt="" class="d-block w-100 ">
+
+            </div>
+            <div class="col-lg-6 p-5 ">
+                <h3>Iconic.</h3>
+                <p> A future legend, an icon in the making. Crafted and perfected for a whole new generation of
+                    Triumph riders.
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- reason to ride  -->
+
+    <div class="container-fluid">
+
+        <div class="bodybox-ride">
+
+            <div class="bodycard">
+                <img src=" /midia/speed-400-my24-family-r2r-card-1-500x500.jpg" alt="">
+                <div class="rideinfo">
+                    <h3>
+                        Reasons to Ride
+                    </h3>
+                    <p>Agile handling, responsive engine and effortless style. Discover why you need to experience
+                        the incredible Speed 400.
+                    </p>
+                    <div class="button11">
+                        <b>DISCOVER MORE</b>
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bodycard">
+                <img src=" /midia/speed-400-my24-family-accessories-card-500x500.jpg" alt="">
+                <div class="rideinfo">
+                    <h3>
+                        Reasons to Ride
+                    </h3>
+                    <p>Agile handling, responsive engine and effortless style. Discover why you need to experience
+                        the incredible Speed 400.
+                    </p>
+                    <div class="button11">
+                        <b>DISCOVER MORE</b>
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 
+        sine up -->
+
+    <div class="container-fluid">
+        <div class="sineupbox">
+            <h2>Sign Up</h2>
+            <p>Submit your email address below and we'll keep you updated with new and relevant Triumph
+                motorcycle content directly to your inbox.</p>
+
+            <div class="lableandinput">
+                <label for="email">email</label>
+                <div class="inputbody"><input type="email" placeholder="Enter your email address"></div>
+            </div>
+            <div class="buttonposted">
+                <button>
+                    Keep me informed
+                </button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- 3cards -->
+
+
+    <div class="container-fluid">
+        <div class="bodycard1 row justify-content-center">
+            <!-- Card 1 -->
+            <div class="inner-box col-md-4">
+                <div class="imgbox1">
+                    <img src=" /midia/sowa-hero-1920x10803.jpg" alt="Epic Adventures">
+                </div>
+                <div class="infobox">
+                    <div class="spambox">
+                        <span class="sp1">Epic Adventures | </span>
+                        <span class="sp2">18th Oct 2024</span>
+                    </div>
+                    <h3>Sowa Pan Scramble | Scrambler 400 X Botswana, South Africa</h3>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="inner-box col-md-4">
+                <div class="imgbox1">
+                    <img src=" /midia/speed-twin-1200-my25-03-1920x7803.jpg" alt="Motorcycles">
+                </div>
+                <div class="infobox">
+                    <div class="spambox">
+                        <span class="sp1">Motorcycles | </span>
+                        <span class="sp2">17th Sep 2024</span>
+                    </div>
+                    <h3>New Speed Twin 1200 RS & Next Generation Speed Twin 1200</h3>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="inner-box col-md-4">
+                <div class="imgbox1">
+                    <img src=" /midia/spy2_2024_static16x9_1920_post_pv_final_en-us3.jpg" alt="Motorcycles">
+                </div>
+                <div class="infobox">
+                    <div class="spambox">
+                        <span class="sp1">Motorcycles | </span>
+                        <span class="sp2">17th Sep 2024</span>
+                        <span class="sp1">Brand | </span>
+                        <span class="sp2">25th Jul 2024</span>
+                    </div>
+                    <h3>Triumph's Bonneville Bobber in the latest Prime Video action comedy, My Spy The Eternal City
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- locaion
+      -->
+    <div class="container-fluid">
+        <div class="locationbox"><i class="bi bi-geo-alt-fill"></i>
+            <span>find a dealer</span>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="layout">
+            <div class="region region--a">
+                <div class="region-inner">
+                    <!-- Footer Links -->
+                    <div class="footer__links">
+                        <!-- Motorcycles Section -->
+                        <div class="footer__article">
+                            <h3 class="footer__title">Motorcycles</h3>
+                            <ul>
+                                <li><a href="/motorcycles/adventure">Adventure</a></li>
+                                <li><a href="/motorcycles/classic">Classic</a></li>
+                                <li><a href="/motorcycles/roadsters">Roadsters</a></li>
+                                <li><a href="/motorcycles/rocket-3">Rocket-3</a></li>
+                                <li><a href="/motorcycles/sport">Sport</a></li>
+                                <li><a href="/for-the-ride/reviews">Reviews</a></li>
+                                <li><a href="/latest-offers">Offers</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Get Started Section -->
+                        <div class="footer__article">
+                            <h3 class="footer__title">Get Started</h3>
+                            <ul>
+                                <li><a href="/configure">Configure</a></li>
+                                <li><a href="https://www.triumphmotorcyclesindia.com/booking" target="_blank">Book
+                                        Now</a></li>
+                                <li><a href="/dealers/dealer-search">Find a Dealer</a></li>
+                                <li><a href="https://www.triumphmotorcyclesindia.com/enquire-now"
+                                        target="_blank">Enquire Now</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- For the Ride Section -->
+                        <div class="footer__article">
+                            <h3 class="footer__title">For the Ride</h3>
+                            <ul>
+                                <li><a href="/for-the-ride/news">Latest News</a></li>
+                                <li><a href="/for-the-ride/experiences/factory-visitor-experience/2022-fve">Factory
+                                        Visitor Experience</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Owners Section -->
+                        <div class="footer__article">
+                            <h3 class="footer__title">Owners</h3>
+                            <ul>
+                                <li><a href="/owners/my-triumph-app">My Triumph App</a></li>
+                                <li><a href="/owners/what3words">What3words</a></li>
+                                <li><a href="/owners">Your Triumph</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="footer__social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/TriumphMotorcyclesIndia/" title="Facebook"><i
+                                        class="icon icon--facebook"></i></a></li>
+                            <li><a href="https://twitter.com/IndiaTriumph" title="Twitter" target="_blank"><i
+                                        class="icon icon--twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com/OfficialTriumph" title="YouTube" target="_blank"><i
+                                        class="icon icon--youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Legal and Copyright Section -->
+                    <div class="footer__legal">
+                        <ul>
+                            <li><a href="/global-content/contact-us">Contact Us</a></li>
+                            <li><a href="/global-content/terms-and-conditions">Legal</a></li>
+                            <li><a href="/public-content-in/corporate-social-responsibility-policy">CSR Policy</a></li>
+                        </ul>
+                        <p>© Designed by Yash Shinde</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap link js -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+
+    </script>
+    <!-- animation link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>

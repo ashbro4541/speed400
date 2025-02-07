@@ -21,7 +21,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>git clone
+<body>
 
     <!-- navbar 1  -->
 
@@ -39,31 +39,31 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" onclick="show1(1)"
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light alllink" aria-current="page" onclick="show1(1)"
                             href="#">Motorcycles</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#"
+                        <a class="nav-link active text-light alllink" aria-current="page" href="#"
                             onclick="show1(2)">Accessories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#"
+                        <a class="nav-link active text-light alllink" aria-current="page" href="#"
                             onclick="show1(3)">Clothing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#" onclick="show1(4)">Owners</a>
+                        <a class="nav-link active text-light alllink" aria-current="page" href="#" onclick="show1(4)">Owners</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="# "
+                        <a class="nav-link active text-light alllink" aria-current="page" href="# "
                             onclick="show1(5)">Discover</a>
                     </li>
 
                     <div class="endelements d-flex  ">
                         <li class="nav-item elementend">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Motorcycles</a>
+                            <a class="nav-link active text-light " aria-current="page" href="#">Motorcycles</a>
                         </li>
                         <li class="nav-item elementend">
                             <a class="nav-link active text-light" aria-current="page" href="#">Accessories</a>
@@ -808,41 +808,41 @@
 
                     <div class="libox">
                         <li class="nav-item1">
-                            <a class="nav-link active text-dark" aria-current="page" href="#"> OVERVIEW</a>
+                            <a class="nav-link active text-dark alllink1 " aria-current="page" href="#part1"> OVERVIEW</a>
                         </li>
                     </div>
                     <div class="libox">
                         <li class="nav-item1">
-                            <a class="nav-link active text-dark" aria-current="page" href="#"> MODEL</a>
+                            <a class="nav-link active text-dark alllink1" aria-current="page" href="#model1"> MODEL</a>
                         </li>
                     </div>
                     <div class="libox">
                         <li class="nav-item1">
-                            <a class="nav-link active text-dark" aria-current="page" href="#"> SPECIFICATION</a>
+                            <a class="nav-link active text-dark alllink1" aria-current="page" href="#specification"> SPECIFICATION</a>
                         </li>
                     </div>
                     <div class="libox">
                         <li class="nav-item1">
-                            <a class="nav-link active text-dark" aria-current="page" href="#"> REASONS TO RIDE</a>
+                            <a class="nav-link active text-dark alllink1" aria-current="page" href="#reasontoride"> REASONS TO RIDE</a>
                         </li>
                     </div>
                     <div class="libox">
                         <li class="nav-item1">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">git</a>
+                            <a class="nav-link active text-dark alllink1" aria-current="page" href="#accrssors">FEATURES</a>
                         </li>
                     </div>
 
 
                     <div class="endbox ">
                         <a href="">
-                            <li class="btn btn--style-h ">
+                            <li class="btn btn-style-h ">
 
-                                ENQUIRE NOW
+                               <a class="alllink1" href="/form.html">ENQUIRE NOW</a> 
                                 <i class="bi bi-arrow-right-short"></i>
                         </a>
                         </li>
 
-                        <li><button type="button" class="btn btn-primary">Primary button</button></li>
+                        <li><button type="button" class="btn btn-primary">BOOK NOW</button></li>
                     </div>
 
 
@@ -863,19 +863,19 @@
 
     <!-- part1  -->
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="part1">
         <div class="img1body">
             <div class="img1">
                 <div class="bbba">
                     <img src=" /midia/speed-400-my24-family-hero-1-1920x1080.jpg" alt="">
                     <div class=" content">
                         <h2>speed 400</h2>
-                        <div class="line"></div>
-                        <h1 id="showLetter"></h1>
+                        <div class="line "></div>
+                        <h1  id="showLetter"></h1>
 
 
                         <script>
-                            const arr = ["Have" , "It" , "ALL"];
+                            const arr = ["HAVE" , "IT" , "ALL"];
                             const h1 = document.getElementById("showLetter")
                             
                             let count = 0;
@@ -912,7 +912,7 @@
     part2 perforamance info -->
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="model1">
         <div class="contenerbox   ">
             <div class="content col-sm-12">
                 <h3>SPIRITED PERFORMANCE</h3>
@@ -941,7 +941,7 @@
 
     <!-- part 3 details and img -->
 
-    <div class="col-12 p-4">
+    <div class="col-12 p-4" id="specification">
         <div class="bodybox col-12  ">
 
             <div class="row">
@@ -1012,7 +1012,7 @@
     <!-- part 4 -->
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="accrssors">
         <div class="upperbox"></div>
 
         <div class="box-corosal">
@@ -1217,7 +1217,7 @@
 
     <!-- reason to ride  -->
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="reasontoride">
 
         <div class="bodybox-ride">
 

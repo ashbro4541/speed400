@@ -1,35 +1,10 @@
-/* <!-- font  --> */
 
-@font-face {
-    font-family: 'DIN2014-Regular';
-    src: url('fonts/DIN2014-Regular.woff2') format('woff2'),
-        url('fonts/DIN2014-Regular.woff') format('woff'),
-        url('fonts/DIN2014-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+
+
+html{
+    scroll-behavior: smooth;
+    background-color: #000;
 }
-
-/* Define DIN2014-Demi */
-@font-face {
-    font-family: 'DIN2014-Demi';
-    src: url('fonts/DIN2014-Demi.woff2') format('woff2'),
-        url('fonts/DIN2014-Demi.woff') format('woff'),
-        url('fonts/DIN2014-Demi.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-bar-body {
     padding: 25px;
     margin-top: -10px;
@@ -50,7 +25,7 @@
 
 .endelements {
     display: flex;
-    margin-left: 500px;
+    margin-left: 400px;
     align-content: end;
 
 
@@ -381,13 +356,6 @@
         }
 
 
-     
-
-
-
-
-
-
         .content {
 
             display: block;
@@ -418,11 +386,14 @@
 
             h1 {
                 font-family: DIN2014-Regular;
-                font-size: 890%;
+                font-size: 890% ;
                 font-weight: 400;
 
 
             }
+         
+
+   
 
 
 
@@ -511,14 +482,14 @@
 
         h1 {
             font-family: DIN2014-Regular;
-            font-size: 20px;
+            font-size: 20%;
             font-weight: 500;
 
         }
 
         p {
             font-family: DIN2014-Regular;
-            font-size: 16px;
+            font-size: 16%;
             text-align: justify;
             font-weight: 500;
 
@@ -528,22 +499,7 @@
 
         .buttonbox {
 
-            #bt1 {
-                display: block;
-                height: 55px;
-                width: 40%;
-                margin-bottom: 15px;
-                background-color: #CD192D;
-                color: #fffcfc;
-
-            }
-
-            #bt2 {
-                height: 50px;
-                width: 55%;
-                background-color: black;
-                color: #fffcfc;
-            }
+          
 
 
         }
@@ -584,7 +540,7 @@
         padding-top: 9%;
         padding-right: 3%;
 
-        h1 {
+        h3 {
             font-family: DIN2014-Regular;
             font-size: 18px;
             font-weight: 500;
@@ -601,27 +557,6 @@
 
         }
 
-        .buttonbox2 {
-
-            #bt1 {
-                display: block;
-                height: 55px;
-                width: 40%;
-                margin-bottom: 15px;
-                background-color: #000000;
-                color: #fffcfc;
-
-            }
-
-            #bt2 {
-                height: 50px;
-                width: 55%;
-                background-color: black;
-                color: #fffcfc;
-            }
-
-
-        }
 
     }
 
@@ -787,62 +722,50 @@
 
 
 /* <!-- reason to ride  --> */
-
-
-.bodybox-ride {
-    width: 100%;
-    height: 700px;
-
-    display: flex;
-    padding-left: 20%;
-
-    .bodycard {
-        height: 100%;
-        width: 500px;
-
-        margin-left: 5%;
-
-        img {
-            height: 500px;
-        }
-
-        .rideinfo {
-            padding-top: 5%;
-
-            h3 {
-                font-family: DIN2014-Demi;
-
-                font-size: 25px;
-
-                font-weight: 400;
-            }
-
-            p {
-                font-family: DIN2014-Regular;
-
-                font-size: 16px;
-
-                font-weight: 400;
-
-            }
-
-            .button11 {
-                font-family: DIN2014-Regular;
-
-                font-size: 20px;
-                color: #000000;
-
-                font-weight: 400;
-
-
-
-            }
-        }
-
-    }
-
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
 }
 
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.btn-link {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+    color: #0d6efd;
+}
+
+.btn-link:hover i {
+    transform: translateX(3px);
+}
+
+.btn-link i {
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.5rem;
+    }
+    
+    .card img {
+        height: 250px !important;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1rem !important;
+    }
+}
 
 /* sine up */
 
@@ -1132,148 +1055,6 @@ h3 {
 
 
 
-
-@media only screen and (max-width: 1140px) {
-
-    /* part2 perforamance info  */
-
-
-    .contenerbox {
-
-        display: flex;
-        z-index: 2;
-        position: relative;
-
-        .contentinfo {
-            margin-top: 35%;
-            padding-left: 10%;
-
-            h1 {
-                font-size: 25px;
-
-            }
-
-
-
-        }
-
-        .content {
-            width: 50%;
-
-            height: 1000px;
-            padding: 6%;
-
-            h1 {
-                font-family: DIN2014-Regular;
-                font-size: 14px;
-                font-weight: 400;
-            }
-
-            h3 {
-                font-size: 25px;
-            }
-
-            p {
-                font-size: 15px;
-            }
-
-            img {
-                height: 550px;
-                width: 500px;
-            }
-
-        }
-
-
-    }
-
-    .bigimgspeed {
-
-
-        img {
-            width: 100%;
-            margin-top: -15%;
-
-
-        }
-
-
-    }
-
-    /*  part 3 details and img -*/
-    .bodybox {
-        width: 100%;
-        height: 450px;
-        display: flex;
-        background-color: rgba(0, 0, 0, 0.334);
-
-
-        .boxdetails {
-            width: 35%;
-            height: 100%;
-            background-color: rgb(255, 255, 255);
-            padding-left: 5%;
-            padding-top: 5%;
-            padding-right: 3%;
-
-            h1 {
-                font-family: DIN2014-Regular;
-                font-size: 15px;
-                font-weight: 500;
-
-            }
-
-            p {
-                font-family: DIN2014-Regular;
-                font-size: 14px;
-                text-align: justify;
-                font-weight: 500;
-
-
-
-            }
-
-            .buttonbox {
-
-                #bt1 {
-                    display: block;
-                    height: 50px;
-                    width: 40%;
-                    margin-bottom: 11px;
-                    background-color: #CD192D;
-                    color: #fffcfc;
-
-                }
-
-                #bt2 {
-                    height: 50px;
-                    width: 55%;
-                    background-color: black;
-                    color: #fffcfc;
-                }
-
-
-            }
-
-        }
-
-        .boximages {
-            width: 65%;
-            height: 100%;
-            background-color: rgb(255, 255, 255);
-
-            img {
-                width: 80%;
-                height: 80%;
-                margin-left: 10%;
-
-
-
-            }
-        }
-    }
-
-}
 
 
 .bodybox2 {
